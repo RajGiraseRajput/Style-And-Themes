@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StyleAndThemes" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.StyleAndThemes" parent="Base.Theme.StyleAndThemes" />
+
+    <style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+         <item name="colorPrimary">@color/black</item>
+    </style>
+
+    <style name="MyButtonBold">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF6D00</item>
+    </style>
+
+</resources>
